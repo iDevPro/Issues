@@ -149,7 +149,7 @@ extension ModalTransitionDelegate: UIViewControllerAnimatedTransitioning {
         UIView.animate(withDuration: duration,
                        animations: {
 
-                        // Disappear
+                        // Appear
                         toViewController.view.alpha = 1.0
                         toViewController.view.frame = finalFrame
 
